@@ -14,3 +14,10 @@
 .card-img-top {
   max-height: 250px;
 }
+
+@media (max-width: 767px) {
+		.row {
+			align-items: center;
+			justify-content: center;
+		}
+}
