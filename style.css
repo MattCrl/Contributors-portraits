@@ -7,5 +7,10 @@
 }
 
 .card-title {
-    font-weight: bold;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  max-height: 250px;
 }
