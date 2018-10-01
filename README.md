@@ -1,4 +1,4 @@
-# Welcome to the open source Contributors portrait ! [Live Version](https://mattcrl.github.io/Contributors-portraits/index.html)
+# Welcome to the open source Contributors portrait !
 ------
 For the Hacktoberfest, I wanna help beginners having their first PR on a simple HTML/CSS/Bootstrap project.
 
