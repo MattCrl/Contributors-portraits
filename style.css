@@ -1,3 +1,11 @@
 .card {
     margin-bottom: 10px;
 }
+
+.card-body {
+    background-image: linear-gradient(#fff, #efefef);
+}
+
+.card-title {
+    font-weight: bold;
+}
