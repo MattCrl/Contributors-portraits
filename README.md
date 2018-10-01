@@ -9,6 +9,7 @@ So the main goal of this repository is to regroup a lot of contributors with the
 - Use Bootstrap cards model, you can copy/paste the first model i've done and replace it with your personnal informations
 - No insults / offensive language, PR will be refused and marked as **invalid**
 - Play the game with your description / image. I won't accept PR if someone just use a placeholder and write a random work as a description !
+- For the image, you can add your file in the **/images** folder, or just add a link of the image of your choice
 
 ## I want to do more
 Like you see, project has actually no "style", feel free to enhance it as you wish and share your ideas (don't do ugly things i won't accept it !). Everything must be in the files that are already created (index.html & style.css), and well indented.
