@@ -1,3 +1,10 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Germania One', cursive;
+}
 a {
   text-decoration: none;
 }
