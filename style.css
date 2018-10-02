@@ -1,8 +1,15 @@
 a {
   text-decoration: none;
 }
+img {
+	object-fit: fill;
+    height: 60px;
+	width: 60px;
+}
 .card {
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 500px;
 }
 .card-body {
   background-color: #582D41;
@@ -13,7 +20,7 @@ a {
   margin-bottom: 10px;
 }
 .card-img-top {
-  max-height: 250px;
+	height: 200px;
 }
 .button {
   border: 3px solid #21ffff;
@@ -23,7 +30,7 @@ a {
   font-size: 0.9em;
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
-  text-decoration: none
+  text-decoration: none;
 }
 .button:hover {
   background-color: #fff;
