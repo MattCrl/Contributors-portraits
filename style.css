@@ -34,3 +34,26 @@ a{
   text-decoration: none;
   color:#21ffff;
 }
+
+
+.card__animate {
+  transition: transform .5s;
+}
+.card__animate::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  content: '';
+  opacity: 0;
+  z-index: -1;
+}
+.card__animate:hover, .card__animate:focus {
+  transform: scale3d(1.006, 1.006, 1);
+}
+.card__animate:hover::after, .card__animate:focus::after {
+  opacity: 1;
+}
