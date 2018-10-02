@@ -2,9 +2,8 @@ a {
   text-decoration: none;
 }
 img {
-	object-fit: fill;
-    height: 60px;
-	width: 60px;
+  height: 60px;
+  width: 60px;
 }
 .card {
   text-align: center;
