@@ -1,14 +1,9 @@
 a {
   text-decoration: none;
 }
-img {
-  height: 60px;
-  width: 60px;
-}
 .card {
   text-align: center;
-  margin-bottom: 30px;
-  height: 500px;
+  margin-bottom: 10px;
 }
 .card-body {
   background-color: #582D41;
@@ -17,15 +12,9 @@ img {
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
-  height: 40px;
 }
 .card-img-top {
-  height: 250px;
-}
-
-.card-text{
-  overflow: auto;
-  height: 150px;
+  max-height: 250px;
 }
 .button {
   border: 3px solid #21ffff;
@@ -35,7 +24,7 @@ img {
   font-size: 0.9em;
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
-  text-decoration: none;
+  text-decoration: none
 }
 .button:hover {
   background-color: #fff;
