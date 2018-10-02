@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+.main-title {
+  font-family: 'Pirata One', cursive;
+}
 .card {
   margin-bottom: 10px;
 }
@@ -60,4 +63,10 @@ a {
 }
 .card__animate:hover::after, .card__animate:focus::after {
   opacity: 1;
+}
+.container h1{
+  font-weight: 300;
+  padding: 50px;
+  background: #582D41;
+  color: white;
 }
