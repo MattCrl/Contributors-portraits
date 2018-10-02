@@ -1,8 +1,16 @@
-img{
+body{
+     font-family: 'Montserrat', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     background-image: linear-gradient(-90deg, #00bcd487 , #0000ff9e) ;
+}
+ img{
      width: 100%;
      height: 250px;
 }
  .card:hover {
      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.10);
+}
+ .text-center{
+     font-family: 'Montserrat', sans-serif;
 }
  
