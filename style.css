@@ -1,7 +1,13 @@
 .card {
     margin-bottom: 10px;
 }
-
+#hacktoberfest{
+  color: white;
+  font: Baumans;
+}
+body{
+  background-color:#411e2f;
+}
 .card-body {
     background-image: linear-gradient(#fff, #efefef);
 }
