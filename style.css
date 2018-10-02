@@ -1,3 +1,34 @@
+body {
+	background-image:url(https://hacktoberfest.digitalocean.com/assets/computer-1-ac501e54260f53f627b8f2d8f42da0811b868214852dd99a9c095344884f576c.png),url(https://hacktoberfest.digitalocean.com/assets/computer-2-2cdd15a9fe9ad8dbc2de34fbb395243df58b73863a4ffca6b417ca1a21d06d2f.png),url(https://hacktoberfest.digitalocean.com/assets/bg-noise-867a64f4a090fcaa19c0c1531b5bf1863feb109a15ac8de23d7f6cf4ff43de10.png);
+	background-blend-mode: multiply;
+	background-position:left 0 top 140px, right 0 top 350px, center;
+	background-repeat:no-repeat, no-repeat, repeat;
+	background-size:396px, 396px, auto;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	margin:0;
+	min-height:100vh;
+	padding:0 0 1.5rem;
+	position:relative;
+	font-size:16px;
+}
+h1 {
+	color: white;
+}
+hr {
+	border-color: white;	
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #21ffff !important;
+    border-color: #21ffff;
+    color: #542A3E;
+    font-style: bold;
+}
 .card {
     margin-bottom: 10px;
 }
