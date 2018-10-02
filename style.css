@@ -12,5 +12,12 @@
 }
 
 .card-img-top {
-  max-height: 250px;
+  max-height: 300px;
+}
+.container h1{
+  background: #536DFE;
+  width: 100%;
+  color: white;
+  font-weight: 300;
+  padding: 50px;
 }
