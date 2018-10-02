@@ -11,9 +11,16 @@ a {
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
+  height: 40px;
 }
 .card-img-top {
-  max-height: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-text{
+  overflow: auto;
+  height: 150px;
 }
 .button {
   border: 3px solid #21ffff;
