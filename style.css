@@ -17,9 +17,15 @@ img {
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
+  height: 40px;
 }
 .card-img-top {
-	height: 200px;
+  height: 250px;
+}
+
+.card-text{
+  overflow: auto;
+  height: 150px;
 }
 .button {
   border: 3px solid #21ffff;
