@@ -14,3 +14,7 @@
 .card-img-top {
   max-height: 250px;
 }
+.text-center{
+	font-family: helvetica;
+	font-weight: 600;
+}
