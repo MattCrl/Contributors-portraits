@@ -1,9 +1,14 @@
+a{
+  text-decoration: none;
+}
+ 
 .card {
     margin-bottom: 10px;
 }
 
 .card-body {
-    background-image: linear-gradient(#fff, #efefef);
+    background-color: #582D41;
+    color: aliceblue;
 }
 
 .card-title {
@@ -13,4 +18,19 @@
 
 .card-img-top {
   max-height: 250px;
+}
+
+.button{
+  border:3px solid #21ffff;
+  border-radius:4px;
+  color:#21ffff;
+  display:inline-block;
+  font-size:0.9em;
+  margin-left:0.5rem;
+  padding:0.5rem 1rem;
+  text-decoration:none
+}
+.button:hover{
+  text-decoration: none;
+  color:#21ffff;
 }
