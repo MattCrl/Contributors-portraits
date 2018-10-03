@@ -59,6 +59,7 @@ a, a:focus, a:hover {
   padding: 0.5rem 1rem;
   text-decoration: none
 }
+
 .button:hover {
   background-color: #fff;
   border-color: #fff;
@@ -88,14 +89,18 @@ a, a:focus, a:hover {
 .card__animate:hover::after, .card__animate:focus::after {
   opacity: 4;
 }
-.container h1{
+.container h1 {
   text-decoration-line:underline; 
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   padding: 50px;
   background-color: rgb(11, 54, 95);
   color: rgb(164, 152, 206);
 }
-
+.container svg {
+  margin-right: 10px;
+}
 .separator{
   background-color:#d9dbe0;
 }
