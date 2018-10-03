@@ -6,6 +6,7 @@ a {
 }
 .card {
   margin-bottom: 10px;
+  text-align:center;
 }
 .card-body {
   background-color: #582D41;
@@ -15,6 +16,7 @@ a {
   font-weight: bold;
   margin-bottom: 10px;
   height: 40px;
+  color:#ff9a56;
 }
 .card-img-top {
   height: 250px;
@@ -69,4 +71,8 @@ a {
   padding: 50px;
   background: #582D41;
   color: white;
+}
+
+.separator{
+  background-color:#ffffff;
 }
