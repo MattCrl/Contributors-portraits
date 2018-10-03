@@ -2,28 +2,32 @@ a {
   text-decoration: none;
 }
 .main-title {
-  font-family: 'Pirata One', cursive;
+  font-family: "Pirata One", cursive;
 }
 .card {
   margin-bottom: 10px;
-  text-align:center;
+  text-align: center;
 }
 .card-body {
-  background-color: #582D41;
+  background-color: #582d41;
   color: aliceblue;
 }
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
   height: 40px;
-  color:#ff9a56;
+  color: #ff9a56;
+}
+.djigotitle {
+  color: white;
+  text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .card-img-top {
   height: 250px;
   object-fit: cover;
 }
 
-.card-text{
+.card-text {
   overflow: auto;
   height: 150px;
 }
@@ -35,7 +39,7 @@ a {
   font-size: 0.9em;
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
-  text-decoration: none
+  text-decoration: none;
 }
 .button:hover {
   background-color: #fff;
@@ -44,9 +48,8 @@ a {
   text-decoration: none;
 }
 
-
 .card__animate {
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .card__animate::after {
   position: absolute;
@@ -56,27 +59,32 @@ a {
   height: 100%;
   transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-  content: '';
+  content: "";
   opacity: 0;
   z-index: -1;
 }
-.card__animate:hover, .card__animate:focus {
+.card__animate:hover,
+.card__animate:focus {
   transform: scale3d(1.006, 1.006, 1);
 }
-.card__animate:hover::after, .card__animate:focus::after {
+.card__animate:hover::after,
+.card__animate:focus::after {
   opacity: 1;
 }
+
 .container h1{
   display: flex;
   justify-content: center;
   font-weight: 300;
   padding: 50px;
-  background: #582D41;
+  background: #582d41;
   color: white;
 }
-.container svg{
+
+.container svg {
   margin-right: 10px;
 }
-.separator{
+
+.separator {
   background-color:#ffffff;
 }
