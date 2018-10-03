@@ -1,16 +1,38 @@
 a {
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a:hover {
+  color: #f67590 !important;
+}
+
+body{
+background-image: url(images/x.jpg);
+background-attachment: no-repeat;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: #222222;
 }
 .main-title {
-  font-family: 'Pirata One', cursive;
+  font-family: 'Rye', cursive;
+  
 }
 .card {
   margin-bottom: 10px;
   text-align:center;
+  height: 600px;
+ 
 }
 .card-body {
-  background-color: #582D41;
-  color: aliceblue;
+  background-color: rgb(38, 110, 177);
+  color: rgb(255, 255, 255);
 }
 .card-title {
   font-weight: bold;
@@ -19,7 +41,7 @@ a {
   color:#ff9a56;
 }
 .card-img-top {
-  height: 250px;
+  height: 230px;
   object-fit: cover;
 }
 
@@ -29,7 +51,7 @@ a {
 }
 .button {
   border: 3px solid #21ffff;
-  border-radius: 4px;
+  border-radius: 5px;
   color: #21ffff;
   display: inline-block;
   font-size: 0.9em;
@@ -64,15 +86,48 @@ a {
   transform: scale3d(1.006, 1.006, 1);
 }
 .card__animate:hover::after, .card__animate:focus::after {
-  opacity: 1;
+  opacity: 4;
 }
 .container h1{
+  text-decoration-line:underline; 
   font-weight: 300;
   padding: 50px;
-  background: #582D41;
-  color: white;
+  background-color: rgb(11, 54, 95);
+  color: rgb(164, 152, 206);
 }
 
 .separator{
-  background-color:#ffffff;
+  background-color:#d9dbe0;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+.button {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+
+
+.button:hover {
+  color: #fff !important;
+  background: #38a4ff;
+  border: 1px solid transparent;
 }
