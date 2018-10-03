@@ -67,12 +67,16 @@ a {
   opacity: 1;
 }
 .container h1{
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   padding: 50px;
   background: #582D41;
   color: white;
 }
-
+.container svg{
+  margin-right: 10px;
+}
 .separator{
   background-color:#ffffff;
 }
