@@ -1,8 +1,12 @@
 a {
   text-decoration: none;
 }
+.main-title {
+  font-family: 'Pirata One', cursive;
+}
 .card {
   margin-bottom: 10px;
+  text-align:center;
 }
 .card-body {
   background-color: #582D41;
@@ -11,9 +15,17 @@ a {
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
+  height: 40px;
+  color:#ff9a56;
 }
 .card-img-top {
-  max-height: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-text{
+  overflow: auto;
+  height: 150px;
 }
 .button {
   border: 3px solid #21ffff;
@@ -53,4 +65,14 @@ a {
 }
 .card__animate:hover::after, .card__animate:focus::after {
   opacity: 1;
+}
+.container h1{
+  font-weight: 300;
+  padding: 50px;
+  background: #582D41;
+  color: white;
+}
+
+.separator{
+  background-color:#ffffff;
 }
