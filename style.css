@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+.main-title {
+  font-family: 'Pirata One', cursive;
+}
 .card {
   margin-bottom: 10px;
 }
