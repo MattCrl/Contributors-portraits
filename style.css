@@ -1,3 +1,22 @@
+body {
+  background-image:url(https://hacktoberfest.digitalocean.com/assets/computer-1-ac501e54260f53f627b8f2d8f42da0811b868214852dd99a9c095344884f576c.png),url(https://hacktoberfest.digitalocean.com/assets/computer-2-2cdd15a9fe9ad8dbc2de34fbb395243df58b73863a4ffca6b417ca1a21d06d2f.png),url(https://hacktoberfest.digitalocean.com/assets/bg-noise-867a64f4a090fcaa19c0c1531b5bf1863feb109a15ac8de23d7f6cf4ff43de10.png);
+  background-blend-mode: multiply;
+  background-position:left 0 top 140px, right 0 top 350px, center;
+  background-repeat:no-repeat, no-repeat, repeat;
+  background-size:396px, 396px, auto;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  margin:0;
+  min-height:100vh;
+  padding:0 0 1.5rem;
+  position:relative;
+  font-size:16px;
+}
 a {
   text-decoration: none;
 }
@@ -9,7 +28,7 @@ a {
   text-align: center;
 }
 .card-body {
-  background-color: #582d41;
+  background-color: #a84a5c;
   color: aliceblue;
 }
 .card-title {
@@ -32,9 +51,9 @@ a {
   height: 150px;
 }
 .button {
-  border: 3px solid #21ffff;
+  border: 3px solid #ff9a56;
   border-radius: 4px;
-  color: #21ffff;
+  color: #ffffff;
   display: inline-block;
   font-size: 0.9em;
   margin-left: 0.5rem;
@@ -42,9 +61,9 @@ a {
   text-decoration: none;
 }
 .button:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #411e2f;
+  background-color: #ff9a56;
+  border-color: #ff9a56;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -77,7 +96,6 @@ a {
   justify-content: center;
   font-weight: 300;
   padding: 50px;
-  background: #582d41;
   color: white;
 }
 
