@@ -17,50 +17,58 @@ body {
   position:relative;
   font-size:16px;
 }
-hr {
-  border-color: white;  
-}
 a {
   text-decoration: none;
 }
 .main-title {
-  font-family: 'Pirata One', cursive;
+  font-family: "Pirata One", cursive;
 }
 .card {
   margin-bottom: 10px;
-  text-align:center;
+  text-align: center;
 }
 .card-body {
-  color: #542A3E;
+  background-color: #a84a5c;
+  color: aliceblue;
 }
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
   height: 40px;
-  color:#ff9a56;
+  color: #ff9a56;
+}
+.djigotitle {
+  color: white;
+  text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .card-img-top {
   height: 250px;
   object-fit: cover;
 }
-.card-text{
+
+.card-text {
   overflow: auto;
   height: 150px;
 }
-.btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color: #21ffff !important;
-    border-color: #21ffff;
-    color: #542A3E;
-    font-style: bold;
+.button {
+  border: 3px solid #ff9a56;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
-.btn-primary:hover {
-  background-color: #542A3E !important;
-  border-color: #542A3E;
+.button:hover {
+  background-color: #ff9a56;
+  border-color: #ff9a56;
   color: #fff;
-  font-style: bold;
+  text-decoration: none;
 }
+
 .card__animate {
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .card__animate::after {
   position: absolute;
@@ -70,22 +78,31 @@ a {
   height: 100%;
   transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-  content: '';
+  content: "";
   opacity: 0;
   z-index: -1;
 }
-.card__animate:hover, .card__animate:focus {
+.card__animate:hover,
+.card__animate:focus {
   transform: scale3d(1.006, 1.006, 1);
 }
-.card__animate:hover::after, .card__animate:focus::after {
+.card__animate:hover::after,
+.card__animate:focus::after {
   opacity: 1;
 }
+
 .container h1{
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   padding: 50px;
   color: white;
-  font-size: 3em;
 }
-.separator{
+
+.container svg {
+  margin-right: 10px;
+}
+
+.separator {
   background-color:#ffffff;
 }
