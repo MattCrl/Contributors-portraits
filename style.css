@@ -4,60 +4,49 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-}
-
-a:hover {
-  color: #f67590 !important;
-}
-
-body{
-background-image: url(images/x.jpg);
-background-attachment: no-repeat;
-}
-
-a, a:focus, a:hover {
+} 
+a {
   text-decoration: none;
-  outline: 0;
-  color: #222222;
 }
 .main-title {
-  font-family: 'Rye', cursive;
-  
+  font-family: "Pirata One", cursive;
 }
 .card {
   margin-bottom: 10px;
-  text-align:center;
-  height: 600px;
- 
+  text-align: center;
 }
 .card-body {
-  background-color: rgb(38, 110, 177);
-  color: rgb(255, 255, 255);
+  background-color: #582d41;
+  color: aliceblue;
 }
 .card-title {
   font-weight: bold;
   margin-bottom: 10px;
   height: 40px;
-  color:#ff9a56;
+  color: #ff9a56;
+}
+.djigotitle {
+  color: white;
+  text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .card-img-top {
-  height: 230px;
+  height: 250px;
   object-fit: cover;
 }
 
-.card-text{
+.card-text {
   overflow: auto;
   height: 150px;
 }
 .button {
   border: 3px solid #21ffff;
-  border-radius: 5px;
+  border-radius: 4px;
   color: #21ffff;
   display: inline-block;
   font-size: 0.9em;
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
-  text-decoration: none
+  text-decoration: none;
 }
 .button:hover {
   background-color: #fff;
@@ -66,9 +55,8 @@ a, a:focus, a:hover {
   text-decoration: none;
 }
 
-
 .card__animate {
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .card__animate::after {
   position: absolute;
@@ -78,56 +66,33 @@ a, a:focus, a:hover {
   height: 100%;
   transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-  content: '';
+  content: "";
   opacity: 0;
   z-index: -1;
 }
-.card__animate:hover, .card__animate:focus {
+.card__animate:hover,
+.card__animate:focus {
   transform: scale3d(1.006, 1.006, 1);
 }
-.card__animate:hover::after, .card__animate:focus::after {
-  opacity: 4;
+.card__animate:hover::after,
+.card__animate:focus::after {
+  opacity: 1;
 }
+
 .container h1{
-  text-decoration-line:underline; 
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   padding: 50px;
-  background-color: rgb(11, 54, 95);
-  color: rgb(164, 152, 206);
+  background: #582d41;
+  color: white;
 }
 
-.separator{
-  background-color:#d9dbe0;
+.container svg {
+  margin-right: 10px;
 }
 
-.button {
-  display: inline-block;
-  outline: none;
-  line-height: 40px;
-  padding: 0 30px;
-  font-size: 1em;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 500;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+.separator {
+  background-color:#ffffff;
 }
 
-
-
-
-.button {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
-  background: #fff;
-}
-
-
-.button:hover {
-  color: #fff !important;
-  background: #38a4ff;
-  border: 1px solid transparent;
-}
