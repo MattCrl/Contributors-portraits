@@ -51,6 +51,7 @@ body{
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
+
 .button:hover {
   background-color: #fff;
   border-color: #fff;
@@ -90,9 +91,11 @@ body{
   background: #a04971;
   color: white;
 }
-
 .container svg {
   margin-right: 10px;
+}
+.separator{
+  background-color:#d9dbe0;
 }
 
 .separator {
