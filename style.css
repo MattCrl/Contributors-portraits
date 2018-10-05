@@ -40,6 +40,7 @@ a {
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  transition: all 0.2s;
 }
 .button:hover {
   background-color: #fff;
