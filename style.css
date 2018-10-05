@@ -8,6 +8,9 @@ a {
 a {
   text-decoration: none;
 }
+body{
+  background-color: #da9fe9;
+}
 .main-title {
   font-family: "Pirata One", cursive;
 }
@@ -16,7 +19,7 @@ a {
   text-align: center;
 }
 .card-body {
-  background-color: #582d41;
+  background-color: #9852a1;
   color: aliceblue;
 }
 .card-title {
@@ -84,7 +87,7 @@ a {
   justify-content: center;
   font-weight: 300;
   padding: 50px;
-  background: #582d41;
+  background: #a04971;
   color: white;
 }
 
@@ -93,6 +96,6 @@ a {
 }
 
 .separator {
-  background-color:#ffffff;
+  background-color:#faf5fc;
 }
 
