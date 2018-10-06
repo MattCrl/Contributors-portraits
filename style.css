@@ -178,7 +178,7 @@ hr{
   #47032f 18%, 
   #310321 44%, 
   #801e35 100%);
-  box-shadow: 1px 2px 10px #dacbce;
+  box-shadow: 2px 2px 10px #801e35;
   border:2px solid #ffffff;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
   display: flex;
@@ -199,4 +199,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
    background-color:#582d41;
    color:#ffffff;
  }
+
+ @media (max-width: 600px){
+
+  .modal-title{
+    font-size: 0.8em;
+  }
+
+  #getting-started{
+    font-size: 0.5em;
+    margin:0;
+   }
+   #getting-started > span{
+    width:50px;
+    height:50px;
+    font-size: 0.9em;
+    margin:0;
+   }
+}
 
