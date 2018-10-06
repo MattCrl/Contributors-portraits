@@ -1,0 +1,14 @@
+# Ignore everything, except...
+*
+
+# ...already established files, and...
+!*/
+!README.md
+!card-example.html
+!index.html
+!style.css
+
+# ...image files in the images/ directory.
+images/*.jpg
+images/*.jpeg
+images/*.png
