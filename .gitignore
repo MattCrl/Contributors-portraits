@@ -9,6 +9,6 @@
 !style.css
 
 # ...image files in the images/ directory.
-images/*.jpg
-images/*.jpeg
-images/*.png
+!images/*.jpg
+!images/*.jpeg
+!images/*.png
