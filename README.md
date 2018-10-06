@@ -12,7 +12,7 @@ So the main goal of this repository is to regroup a lot of contributors with the
 - For the image, you can add your file in the **/images** folder, or just add a link of the image of your choice
 
 ## I want to do more
-Like you see, project has actually no "style", feel free to enhance it as you wish and share your ideas (don't do ugly things i won't accept it !). Everything must be in the files that are already created (index.html & style.css), and well indented.
+Like you see, project has actually no "style", feel free to enhance it as you wish and share your ideas (**don't do ugly things i won't accept it !**). Everything must be in the files that are already created (index.html & style.css), and well indented.
 It's really easy to do a simple HTML/CSS pull request, so at least indent your code so the project will stay proper :).
 
 ## How to contribute

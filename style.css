@@ -1,5 +1,15 @@
 a {
   text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+} 
+a {
+  text-decoration: none;
+}
+body{
+  background-color: #da9fe9;
 }
 .main-title {
   font-family: "Pirata One", cursive;
@@ -9,7 +19,9 @@ a {
   text-align: center;
 }
 .card-body {
-  background-color: #582d41;
+
+  background-color: #9852a1;
+
   color: aliceblue;
 }
 .card-title {
@@ -41,6 +53,7 @@ a {
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
+
 .button:hover {
   background-color: #fff;
   border-color: #fff;
@@ -77,14 +90,19 @@ a {
   justify-content: center;
   font-weight: 300;
   padding: 50px;
-  background: #582d41;
+
+  background: #a04971;
   color: white;
 }
-
 .container svg {
   margin-right: 10px;
 }
+.separator{
+  background-color:#d9dbe0;
+}
 
 .separator {
-  background-color:#ffffff;
+  background-color:#faf5fc;
 }
+
+
