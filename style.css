@@ -88,3 +88,17 @@ a {
 .separator {
   background-color:#ffffff;
 }
+
+.img-cool{
+  filter: hue-rotate(0deg);
+  -webkit-filter: hue-rotate(0deg);
+  -webkit-transition:  1s; /* Safari */
+    transition:  1s;
+}
+
+.img-cool:hover{
+  filter: hue-rotate(360deg);
+  -webkit-filter: hue-rotate(360deg);
+  -webkit-transition:  1s; /* Safari */
+    transition:  1s;
+}
