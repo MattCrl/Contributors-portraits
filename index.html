@@ -10,7 +10,7 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Pirata+One" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
+ </head>
 
 <body>
   <div class="container">
@@ -23,11 +23,18 @@
 		</svg>
 		<span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
     <hr>
-
+    <div class="container" style="background-color: #582d41; padding: 1%;">
+	    <div class="row">
+	    	<div class="col-12 col-md-12 col-lg-12 text-center">
+	    		<h3 class="main-title" id="count" style="color:white;"></h3>
+	    	</div>
+	    </div>
+	</div>
+	<hr>
     <!-- Global row, put your code between it-->
     <div class="row">
       <!-- First card ! It's me ;) -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/mattctrl.jpg" alt="Card image cap">
           <div class="card-body">
@@ -39,8 +46,33 @@
         </div>
       </div>
 
-      <!-- Second One! This is Satyabrat -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <!-- Second One! This is Mateo -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/mateo.jpg" alt="Awesome">
+          <div class="card-body">
+            <h5 class="card-title">Mateo Hoxha</h5>
+            <hr class="separator">
+            <p class="card-text">Experienced Front-end Developer based in Albania. I am always hungry for new challenges and inovations.</p>
+            <a href="https://github.com/mateohoxha" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third card is my spot! Marejean, by the way ;) -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://lh3.googleusercontent.com/-cQ71Upst890/W6p6ht1U9NI/AAAAAAAAuSU/ERV-I0uVeMUs5GCT9dYjy8ZqYpMWGCTMgCL0BGAYYCw/h2048/5486263807892059260%253Faccount_id%253D2" alt="Marejean">
+          <div class="card-body">
+            <h5 class="card-title">Marejean Perpinosa</h5>
+            <hr class="separator">
+            <p class="card-text">Just a random stranger who happens to be here.</p>
+            <a href="https://github.com/granaderos" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+	    
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/erik.jpg" alt="Awesome">
           <div class="card-body">
@@ -52,9 +84,9 @@
           </div>
         </div>
       </div>
-      
-      
-      <div class="col-12 col-md-6 col-lg-3">
+
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://avatars0.githubusercontent.com/u/752518?s=400&u=9dc3d42b743ece6eca6a9f4dc1d9faaa89e3160e&v=4" alt="Card image cap">
           <div class="card-body">
@@ -68,7 +100,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/inyutin.jpg" alt="Card image cap">
           <div class="card-body">
@@ -83,7 +115,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/adan.jpg" alt="Card image cap">
           <div class="card-body">
@@ -98,7 +130,7 @@
       </div>
 
       <!-- Antonio Djigo, Heelllooooo!-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/djigo.jpg" alt="Antonio Djigo avatar">
           <div class="card-body">
@@ -113,7 +145,7 @@
       </div>
 
       <!-- Amelco \o/ -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/amelco.png" alt="Card image cap">
           <div class="card-body">
@@ -128,7 +160,7 @@
       </div>
 
 
-       <div class="col-12 col-md-6 col-lg-3">
+       <div class="col-12 col-md-6 col-lg-3 contributor">
           <div class="card card__animate">
             <img class="card-img-top img-fluid" data-src="./images/Zunaid.jpg" alt="Zunaid">
             <div class="card-body">
@@ -142,21 +174,7 @@
          </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card card__animate">
-          <img class="card-img-top img-fluid" data-src="./images/Zunaid.jpg" alt="Zunaid">
-          <div class="card-body">
-            <h5 class="card-title">Zunaid Ahmed</h5>
-            <hr class="separator">
-            <p class="card-text">
-              Hello, I'm a student of Computer Science from Jaypee University of Engineering and Technology!
-            </p>
-            <a href="https://github.com/zunaid24" class="button">GitHub Profile</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" src="https://www.gravatar.com/avatar/3992d28805dee3a7e5a368f533c9e95c?s=200&d=identicon"
             alt="Cristian Livella">
@@ -169,7 +187,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/seanb.png" alt="Card image cap">
           <div class="card-body">
@@ -181,7 +199,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/emilyc.jpg" alt="Emily Colón">
           <div class="card-body">
@@ -195,7 +213,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/vaibhav.jpg" alt="Vaibhav Khulbe profile">
           <div class="card-body">
@@ -208,7 +226,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/DanielCustDuran.jpg" alt="Card image cap">
           <div class="card-body">
@@ -221,7 +239,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/robin.png" alt="Card image cap">
           <div class="card-body">
@@ -236,19 +254,19 @@
 <!--Start Brandon Card-->
 	<div class="col-12 col-md-6 col-lg-3">
     		<div class="card card__animate">
-         	<img class="card-img-top img-fluid" data-src="./images/Brandon.jpg" alt="Card image cap">
-        	<div class="card-body">
-        	<h5 class="card-title">Brandon</h5>
-                <hr class="separator">
-		<p class="card-text">Currently working in a non tech field and <strong>REALLY</strong> trying to make a career change.</p>
-            <a href="https://github.com/mbrandon32" class="button">GitHub Profile</a>
-        </div>
-    </div>
-</div>
+          	<img class="card-img-top img-fluid" data-src="./images/Brandon.jpg" alt="Card image cap">
+            	 <div class="card-body">
+                 <h5 class="card-title">Brandon</h5>
+                 <hr class="separator">
+	               <p class="card-text">Currently working in a non tech field and <strong>REALLY</strong> trying to make a career change.</p>
+                 <a href="https://github.com/mbrandon32" class="button">GitHub Profile</a>
+               </div>
+         </div>
+      </div>
 	    
 <!--End Brandon Card-->
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/uditgupta.jpg" alt="Card image cap">
           <div class="card-body">
@@ -262,7 +280,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/agam.jpg" alt="Card image cap">
           <div class="card-body">
@@ -275,7 +293,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/joy.png" alt="Card image cap">
           <div class="card-body">
@@ -287,7 +305,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/tarunJindal.jpg" alt="Card image cap">
           <div class="card-body">
@@ -301,7 +319,7 @@
       </div>
 
       <!-- Karen's card start -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" src="images/karen01012018.jpg" alt="Card image cap">
           <div class="card-body">
@@ -315,7 +333,7 @@
       </div>
       <!-- Karen's card close -->
       <!-- Gourav's Card -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" src="images/Gourav.jpg" alt="Gourav">
           <div class="card-body">
@@ -328,7 +346,7 @@
         </div>
       </div>
       <!-- End of Gourav's Card -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/juilLms.png" alt="Jui Lims">
           <div class="card-body">
@@ -341,7 +359,7 @@
       </div>
 
       <!-- owo, what's this? -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/EthanJR.jpg" alt="Ethan">
           <div class="card-body">
@@ -354,7 +372,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/lane.jpg" alt="Lane-Vishal-Anand">
           <div class="card-body">
@@ -367,7 +385,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/thanhnha1103.jpeg" alt="Nha Huynh">
           <div class="card-body">
@@ -379,7 +397,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/ashan.jpg" alt="Card image cap">
           <div class="card-body">
@@ -393,7 +411,7 @@
       </div>
 
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/miftah.jpeg" alt="Miftah Faris">
           <div class="card-body">
@@ -406,7 +424,7 @@
       </div>
 
       <!-- Palmer's card start! -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/palmerhinchliffe.jpg" alt="Card image cap">
           <div class="card-body">
@@ -421,7 +439,7 @@
       <!-- Palmer's card end -->
 
       <!-- This is Colombia hp... ;) -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/gerlis.jpg" alt="Card image cap">
           <div class="card-body">
@@ -435,7 +453,7 @@
       </div>
 
       <!-- Kashif's card start! -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/kashif.jpg" alt="Kashif Rafique">
           <div class="card-body">
@@ -466,7 +484,7 @@
 
 
       <!-- joell's card -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/joell.jpg" alt="joell lapitan">
           <div class="card-body">
@@ -481,7 +499,7 @@
 
 
       <!-- CarlosFrontend card start -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/carlos.png" alt="Contributor-image">
           <div class="card-body">
@@ -495,9 +513,9 @@
       <!-- CarlosFrontend card end -->
 
       <!-- Dan's card -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
-          <img class="card-img-top img-fluid" data-src="./images/maindaniel.jpg" alt"Dan Main">
+          <img class="card-img-top img-fluid" data-src="./images/maindaniel.jpg" alt="Dan Main">
           <div class="card-body">
             <h5 class="card-title">Dan Main</h5>
             <hr class="separator">
@@ -508,7 +526,7 @@
       </div>
       <!-- Dan's card end -->
 
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/revanthgss.jpg" alt="Revanth Gullapalli">
           <div class="card-body">
@@ -523,7 +541,7 @@
 
 
       <!--Nirmal's Card-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/NirmalDalmia.jpeg" alt="Card image cap">
           <div class="card-body">
@@ -538,7 +556,7 @@
       <!--Nirmal's card end-->
 
       <!-- Stephanie L's card begin-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://i.imgur.com/5Xvf0Tr.jpg" alt="my headshot">
           <div class="card-body">
@@ -552,11 +570,12 @@
       <!-- Stephanie L's card end-->
 
       <!-- Lauren E card begin-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://github.com/aliecake.png" alt="photo of Lauren E">
           <div class="card-body">
             <h5 class="card-title">Lauren Eggers</h5>
+            <hr class="separator">
             <p class="card-text">Transitioning to a career in Web Development. Current passions are mobile web apps &
               Vanilla JavaScript. Practicing PR in the meantime.</p>
             <a href="https://github.com/Aliecake" class="button">Lauren's Github Profile</a>
@@ -566,7 +585,7 @@
       <!-- Lauren E card end-->
 
       <!--Rohan's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/rohan.jpg" alt="portrait">
           <div class="card-body">
@@ -580,7 +599,7 @@
       <!--Rohan's card end-->
 
       <!--Budhiraja's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/budhiraja.jpg" alt="portrait">
           <div class="card-body">
@@ -594,12 +613,13 @@
       <!--Budhiraja's Card end-->
 
       <!-- Aayush's card start -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://avatars2.githubusercontent.com/u/41341387?s=460&v=4"
             alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Aayush Bisen</h5>
+            <hr class="separator">
             <p class="card-text">I just started programming in C and I want to learn Machine Learning techniques, I
               also love open-source applications and someday want to make one.</p>
             <a href="https://github.com/aayushbisen" class="button">GitHub Profile</a>
@@ -609,12 +629,13 @@
       <!-- Aayush's card end -->
 
       <!-- Suvansh's Card Start -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://avatars0.githubusercontent.com/u/36293610?s=460&v=4"
             alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Suvansh Rana</h5>
+            <hr class="separator">
             <p class="card-text">Full Stack Developer interested in making the web more accessible .</p>
             <a href="https://github.com/Sherlock2000" class="button">GitHub Profile</a>
           </div>
@@ -623,7 +644,7 @@
       <!-- Suvansh's Card End -->
 
       <!--Lucas's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/lucas.jpg" alt="portrait">
           <div class="card-body">
@@ -640,11 +661,12 @@
 
 
       <!--Aaron's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" src="./images/Melkyy.jpg" alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Aaron Rodriguez</h5>
+            <hr class="separator">
             <p class="card-text">Web Developer From Basconcobe, Etchojoa Sonora, Mexico</p>
             <a href="https://github.com/melkyy" class="button">GitHub Profile</a>
           </div>
@@ -654,7 +676,7 @@
 
 
       <!-- start Jared's Card -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/jstevick.jpg" alt="portrait">
           <div class="card-body">
@@ -668,12 +690,13 @@
       <!-- end Jared's card -->
 
       <!-- Aleksandar Madic's card begin -->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="https://avatars1.githubusercontent.com/u/25552088?s=400&u=bcb55507cf0b52b3623e67e1e02ad46ce10dd575&v=4"
             alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Aleksandar Madic</h5>
+            <hr class="separator">
             <p class="card-text">I'm a studenf of ICT College, interested in Front-end web devolpemnt and mobile app
               developemnt with React Native</p>
             <a href="https://github.com/madic00" class="button">GitHub Profile</a>
@@ -683,11 +706,12 @@
       <!-- Aleksandar Madic's card end -->
 
       <!--thebooort Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/thebooort.jpg" alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Bart Ortiz</h5>
+            <hr class="separator">
             <p class="card-text">Applied mathematician from Spain. When I'm not simulating things with maths I like
               contributing to open source projects!</p>
             <a href="https://github.com/thebooort" class="button">GitHub Profile</a>
@@ -696,12 +720,27 @@
       </div>
       <!--thebooort card end-->
 
-      <!--kenanchristian Card start-->
+      <!--Helen's Card start-->
       <div class="col-12 col-md-6 col-lg-3">
+          <div class="card card__animate">
+               <img class="card-img-top img-fluid" data-src="./images/helen.jpg" alt="portrait">
+              <div class="card-body">
+                  <h5 class="card-title">Helen King</h5>
+                  <hr class="separator">
+                  <p class="card-text">Developer in Training! Currently learning Python.</p>
+                  <a href="https://github.com/HelenKing029" class="button">GitHub Profile</a>
+              </div>
+          </div>
+      </div>
+      <!--Helen's Card End-->
+
+      <!--kenanchristian Card start-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/kenanchristian.jpg" alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Christian Dimas</h5>
+            <hr class="separator">
             <p class="card-text">Front-End Developer @ MagLoft!</p>
             <a href="https://github.com/kenanchristian" class="button">GitHub Profile</a>
           </div>
@@ -710,17 +749,139 @@
       <!--kenanchristian card end-->
 
       <!--Tanya's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/tanya.jpg" alt="portrait">
           <div class="card-body">
             <h5 class="card-title">Tanya Mott</h5>
+            <hr class="separator">
             <p class="card-text">Full stack .NET developer from Atlanta, GA. I currently enjoy building apps in Angular and continuing to learn new cool things!</p>
             <a href="https://github.com/tmott13" class="button">GitHub Profile</a>
           </div>
         </div>
       </div>
       <!--Tanya's Card end-->
+
+      <!--beingmountain23 Card start-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/beingmountain23.jpg" alt="portrait">
+          <div class="card-body">
+            <h5 class="card-title">Akshay Poduval</h5>
+            <hr class="separator">
+            <p class="card-text">Computer Science graduate from Aurangabad, India. Enjoy front end UI/UX development. Affinity towards CSS and all things related.</p>
+            <a href="https://github.com/beingmountain23" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!--beingmountain23 Card end-->
+
+	  <!--Cooper's Card Start-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars2.githubusercontent.com/u/23019871?s=460&v=4" alt="portrait">
+          <div class="card-body">
+            <h5 class="card-title">coopjc</h5>
+            <hr class="separator">
+            <p class="card-text"> Aspiring Software Engineer Currently Working with Java and Web Development</p>
+            <a href="https://github.com/coopjc" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!--Cooper's Card End-->
+
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/FaruqRahmadani.jpeg" alt="Its me Faruq :)">
+          <div class="card-body">
+            <h5 class="card-title">Faruq Rahmadani</h5>
+            <hr class="separator">
+            <p class="card-text">Just people who want who be a ridiculous :) and want to be a cool programmer :V</p>
+            <a href="https://github.com/FaruqRahmadani" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!--syauqi's Card start-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+          <div class="card card__animate">
+               <img class="card-img-top img-fluid" data-src="images/syauqiahmd.jpg" alt="Card image cap">
+              <div class="card-body">
+                  <h5 class="card-title">Ahmad Syauqi</h5>
+                  <hr class="separator">
+                  <p class="card-text">Hi there, I'm a graphic designer and a web developer from Indonesia</p>
+                  <a href="https://github.com/syauqiahmd" class="button">GitHub Profile</a>
+              </div>
+          </div>
+      </div>
+
+	    <!--This is Roh -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/rohit.png" alt="Awesome">
+          <div class="card-body">
+            <h5 class="card-title">Rohit</h5>
+            <hr class="separator">
+            <p class="card-text">Novice Android Developer.</p>
+            <a href="https://github.com/roh-7" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+	
+	    <!-- Vaibhav's card start! -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/Vaibhav_Vijay.jpg" alt="Vaibhav Vijay">
+          <div class="card-body">
+            <h5 class="card-title">Vaibhav Vijay</h5>
+            <hr class="separator">
+            <p class="card-text">I'm a web developer with focused on Java Servlets, JSP and Materialize CSS. Willing to expand
+              my knowledge in modern JS frameworks AngularJS.</p>
+            <a href="https://github.com/vaibhavvijay9" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Vaibhav's card end -->    
+	    
+      <!--This is Diego-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars3.githubusercontent.com/u/37378645?s=400&u=e0a50f954abf5bc899e879fa21e48724ec3ecd01&v=4" alt="Zunaid">
+          <div class="card-body">
+            <h5 class="card-title">Diego Castro</h5>
+            <hr class="separator">
+            <p class="card-text">
+              Hello, I'm a self taught developer currently working for Marriott.
+            </p>
+            <a href="https://github.com/dacqcastro" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Vatsal Trivedi Card -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/vatsal.jpg" alt="Awesome">
+          <div class="card-body">
+            <h5 class="card-title">Vatsal Trivedi</h5>
+            <hr class="separator">
+            <p class="card-text">Web Developer • Photographer • Graphics designer • Coder • Engineer • Artist </p>
+            <a href="https://github.com/vattytrivedi" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+	  
+	  <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/maggiduscher.png">
+          <div class="card-body">
+            <h5 class="card-title">Lars</h5>
+            <hr class="separator">
+            <p class="card-text">Student (Software Engineering), developer since 4 Years. Working for a german e-commerce company</p>
+            <a href="https://github.com/maggiduscher" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
 
       <!-- End of global row -->
     </div>
@@ -736,12 +897,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
 
   <script type="text/javascript">
-
     let myLazyLoad = new LazyLoad({
       elements_selector: ".card-img-top"
     });
+  	var nodesSameClass = document.getElementsByClassName("contributor");
+  	document.getElementById("count").innerHTML = "Contributors Count: " + "<b style='color:#21ffff'>" + nodesSameClass.length +"</b>";
   </script>
 
 </body>
-
 </html>
