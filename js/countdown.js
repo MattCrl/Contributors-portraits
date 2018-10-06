@@ -1,8 +1,14 @@
 define('countdown', function () {
    
-  var time = (new Date().getFullYear()) + "/11/01";
+  var time = (new Date().getFullYear()) + "/10/31";
   $("#getting-started").countdown(time, function(event) {
-    $(this).html(event.strftime('%-w weeks %-d days %Hh %Mm %Ss'));
+    $(this).html(event.strftime(
+    
+    ' '
+    + '<span class="badge badge-dark">%-D <br>day%!d </span>'
+    + '<span class="badge badge-dark">%H <br>hr </span>'
+    + '<span class="badge badge-dark">%M <br>min </span>'
+    + '<span class="badge badge-dark">%S <br>sec</span>'));
   });
 
 });

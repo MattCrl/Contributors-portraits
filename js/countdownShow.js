@@ -4,6 +4,6 @@ define('countdownShow',function(){
 
     window.setTimeout(function () {
         $("#modal").modal("hide");
-    }, 10000);
+    },8000);
     
 });
