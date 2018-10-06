@@ -19,7 +19,9 @@ body{
   text-align: center;
 }
 .card-body {
+
   background-color: #9852a1;
+
   color: aliceblue;
 }
 .card-title {
@@ -88,6 +90,7 @@ body{
   justify-content: center;
   font-weight: 300;
   padding: 50px;
+
   background: #a04971;
   color: white;
 }
@@ -101,4 +104,5 @@ body{
 .separator {
   background-color:#faf5fc;
 }
+
 
