@@ -15,18 +15,39 @@
 <body>
   <div class="container">
     <h1 class="text-center">
-    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="; enable-background:new 0 0 300 300;" xml:space="preserve" role="img" aria-labelledby="dyn2wm4vin1xgraye3ggy9kf12oaz8a" class="header__logo" width="50px" height="50px"><title id="dyn2wm4vin1xgraye3ggy9kf12oaz8a">Hacktoberfest</title>
+    	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve" role="img" aria-labelledby="dyn2wm4vin1xgraye3ggy9kf12oaz8a" class="header__logo" width="50px" height="50px"><title id="dyn2wm4vin1xgraye3ggy9kf12oaz8a">Hacktoberfest</title>
 			<style type="text/css">
 				.st0{fill:#21ffff;}
 			</style>
 			<path class="st0" d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z"></path>
 		</svg>
-		<span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
+    <span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
+    
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">What are you waiting to send your pull requests?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="getting-started"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
     <hr>
-    <div class="container" style="background-color: #582d41; padding: 1%;">
+    <div class="container">
 	    <div class="row">
 	    	<div class="col-12 col-md-12 col-lg-12 text-center">
-	    		<h3 class="main-title" id="count" style="color:white;"></h3>
+	    		<h3 class="main-title style-count" id="count"></h3>
 	    	</div>
 	    </div>
 	</div>
@@ -68,6 +89,18 @@
             <hr class="separator">
             <p class="card-text">Just a random stranger who happens to be here.</p>
             <a href="https://github.com/granaderos" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+	    <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/wisnu.jpg" alt="Awesome">
+          <div class="card-body">
+            <h5 class="card-title">Wisnu Febriadi</h5>
+            <hr class="separator">
+            <p class="card-text">Hello, I'm a Student of Computer Science From Indonesia</p>
+            <a href="https://github.com/wfebriadi" class="button">GitHub Profile</a>
           </div>
         </div>
       </div>
@@ -134,7 +167,7 @@
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/djigo.jpg" alt="Antonio Djigo avatar">
           <div class="card-body">
-            <h5 class="card-title djigotitle">Antonio Djigo</h5>
+            <h5 class="card-title">Antonio Djigo</h5>
             <hr class="separator">
             <p class="card-text">
               Hey!, I'm an actual Developer working in the Canary Island, Spain, as a cool web developer! Full Stack
@@ -189,6 +222,18 @@
 
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/danherrera.jpg" alt="Danilo Herrera">
+          <div class="card-body">
+            <h5 class="card-title">Danilo Herrera</h5>
+            <hr class="separator">
+            <p class="card-text">I am an Android developer who is infatuated with Kotlin. I have worked in the DMV, Austin, and NYC.</p>
+            <a href="https://github.com/danherrera" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/seanb.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Sean B</h5>
@@ -222,6 +267,18 @@
             <p class="card-text">I'm an Android and web developer. I also like to write blogs on Medium and I play
               FIFA 18 everyday :)</p>
             <a href="https://github.com/Kvaibhav01" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/mamoanwar.jpg" alt="My profile photo">
+          <div class="card-body">
+            <h5 class="card-title">Mahmoud M.Anwar</h5>
+            <hr class="separator">
+            <p class="card-text">I'm an electric engineer and web developer.</p>
+            <a href="https://github.com/mamoanwar" class="button">GitHub Profile</a>
           </div>
         </div>
       </div>
@@ -317,6 +374,7 @@
         </div>
       </div>
       <!-- Karen's card close -->
+      
       <!-- Gourav's Card -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -364,7 +422,7 @@
             <h5 class="card-title">Vishal Anand</h5>
             <hr class="separator">
             <p class="card-text">Computer Science student, competitive programmer, IITian, cricketer, painter, open
-              source enthusiastic. More info <a href="http://vishal1541.github.io/"> here </a> </p>
+              source enthusiastic. <a href="http://vishal1541.github.io/" class="more-info">More info</a></p>
             <a href="https://github.com/Vishal1541" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -394,7 +452,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -453,9 +510,9 @@
       <!-- Kashif's card end -->
 
       <!-- start Karl's card -->
-      <div class="col-6 col-sm-4 col-md-3">
-        <div class="card">
-          <img class="card-img-top" src="./images/karl.jpg" alt="Karl Tanjuan">
+      <div class="col-12 col-sm-4 col-md-3">
+        <div class="card card__animate contributor">
+          <img class="card-img-top img-fluid" data-src="./images/karl.jpg" alt="Karl Tanjuan">
           <div class="card-body">
             <h5 class="card-title">Karl Tanjuan</h5>
             <hr class="separator">
@@ -466,7 +523,6 @@
         </div>
       </div>
       <!-- end Karl's card -->
-
 
       <!-- joell's card -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
@@ -481,7 +537,6 @@
         </div>
       </div>
       <!-- joell's card end -->
-
 
       <!-- CarlosFrontend card start -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
@@ -523,7 +578,6 @@
           </div>
         </div>
       </div>
-
 
       <!--Nirmal's Card-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
@@ -643,8 +697,6 @@
       </div>
       <!--Lucas's card end-->
 
-
-
       <!--Aaron's Card start-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -658,7 +710,6 @@
         </div>
       </div>
       <!--Aaron's card end-->
-
 
       <!-- start Jared's Card -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
@@ -812,7 +863,7 @@
           </div>
         </div>
       </div>
-	
+
 	    <!-- Vaibhav's card start! -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -826,8 +877,8 @@
           </div>
         </div>
       </div>
-      <!-- Vaibhav's card end -->    
-	    
+      <!-- Vaibhav's card end -->
+
       <!--This is Diego-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -856,13 +907,52 @@
         </div>
       </div>
 	  
-	  <div class="col-12 col-md-6 col-lg-3 contributor">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+          <div class="card card__animate">
+            <img class="card-img-top img-fluid" data-src="./images/maggiduscher.png">
+            <div class="card-body">
+              <h5 class="card-title">Lars</h5>
+              <hr class="separator">
+              <p class="card-text">Student (Software Engineering), developer since 4 Years. Working for a german e-commerce company</p>
+              <a href="https://github.com/maggiduscher" class="button">GitHub Profile</a>
+            </div>
+        </div>
+      </div>
+
+        <!--This is Marcos Costa Card -->
+        <div class="col-12 col-md-6 col-lg-3 contributor">
+          <div class="card card__animate">
+            <img class="card-img-top img-fluid" data-src="https://avatars3.githubusercontent.com/u/19848508?s=460&v=4" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Marcos Costa</h5>
+              <hr class="separator">
+              <p class="card-text">Software Engineer currently working with Sass & Modern JS in frontend, and Django & .NET in
+                backend. And I heart to learn new techs.</p>
+              <a href="https://github.com/Marcos-Costa" class="button">GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+	  
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
-          <img class="card-img-top img-fluid" data-src="./images/maggiduscher.png">
+          <img class="card-img-top img-fluid" data-src="./images/annsv.jpg" alt="Awesome">
           <div class="card-body">
-            <h5 class="card-title">Lars</h5>
+            <h5 class="card-title">Anna Sebova</h5>
             <hr class="separator">
-            <p class="card-text">Student (Software Engineering), developer since 4 Years. Working for a german e-commerce company</p>
+            <p class="card-text">Front-End Developer from Odessa, Ukraine. I like and make sites on WordPress, but want to work only with front-end. That's why I study JavaScript.</p>
+            <a href="https://github.com/annsv" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+  <!--Hasanga's card-->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/hasa.JPG">
+          <div class="card-body">
+            <h5 class="card-title">Hasanga</h5>
+            <hr class="separator">
+            <p class="card-text">Student of University of Moratuwa Srilanka,I am a self-motivated and hardworking fresher </p>
             <a href="https://github.com/maggiduscher" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -880,6 +970,98 @@
         </div>
       </div>
 
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/jlaschober.png">
+          <div class="card-body">
+            <h5 class="card-title">John Laschober</h5>
+            <hr class="separator">
+            <p class="card-text">Software developer who's graduating soon and will be looking for work. I code small video games
+              in Unity for fun and I'm also loving web development!
+            </p>
+            <a href="https://github.com/johnlaschober" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+     <!--Simon Pfister card  -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/simon.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Simon Pfister</h5>
+            <hr class="separator">
+            <p class="card-text">Front-End Webdeveloper enjoing the new tech. Only few month of experienc. Would lice to have a Job in Web Development. </p>
+            <a href="https://github.com/pfistersimon" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Okutasan card start! -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/okuta.jpg" alt="Okta Arif">
+          <div class="card-body">
+            <h5 class="card-title">Okta Arif Cahyawan</h5>
+            <hr class="separator">
+            <p class="card-text">I'm a network engginer, student at Indonesia. FOSS & Anime Enthusiast. Project Manager <a href="https://tealinuxos.org/">TealinuxOS X</a></p>
+            <a href="https://github.com/okutasan" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Okutasan card end -->
+
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/rizki.jpeg">
+          <div class="card-body">
+            <h5 class="card-title">Rizki Mufti Ilmawan</h5>
+            <hr class="separator">
+            <p class="card-text">Web Developer From Indonesia</p>
+            <a href="https://github.com/maggiduscher" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/jerry.jpg" alt="Jerry Tan">
+          <div class="card-body">
+            <h5 class="card-title">Jerry Tan</h5>
+            <hr class="separator">
+            <p class="card-text">Computer Science Student at UC Riverside currently learning web development! Skills I have learned so far are HTML, CSS, React, jQuery, and Django.</p>
+            <a href="https://github.com/bball24" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aris Kurniawan -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/arisdolanan.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Aris Kurniawan</h5>
+            <hr class="separator">
+            <p class="card-text">Hi there, I'm Student (Software Engineering),  My Hobby is Coding, Gaming, Design, I am from Indonesia</p>
+            <a href="https://github.com/Arisdolanan" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Aris Kurniawan -->
+
+      <!-- Kimon Topouzidis -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars2.githubusercontent.com/u/15310054?s=460&v=4" alt="ktopouzi">
+          <div class="card-body">
+            <h5 class="card-title">Kimon Topouzidis</h5>
+            <hr class="separator">
+            <p class="card-text">Junior Software Developer. I love learning new technologies, passionate about Game Development, Gamer</p>
+            <a href="https://github.com/ktopouzi" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
       <!-- End of global row -->
     </div>
   </div>
@@ -890,16 +1072,9 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
-
-  <script type="text/javascript">
-    let myLazyLoad = new LazyLoad({
-      elements_selector: ".card-img-top"
-    });
-  	var nodesSameClass = document.getElementsByClassName("contributor");
-  	document.getElementById("count").innerHTML = "Contributors Count: " + "<b style='color:#21ffff'>" + nodesSameClass.length +"</b>";
-  </script>
+  <script data-main="./js/main" src="./js/require.js"></script>
 
 </body>
 </html>
