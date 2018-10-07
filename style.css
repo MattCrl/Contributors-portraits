@@ -144,7 +144,7 @@ a.more-info:hover:before{
   background-color:#ff9a56;
   color:#ffffff;
 }
-h3.style-countborder-radius:10px;{
+h3.style-count{
   background:none;
   color:#ffffff;
 }
@@ -210,7 +210,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
  .branch, .home{
    margin:0.9em auto;
  }
- 
+
  @media (max-width: 600px){
 
   .modal-title{
