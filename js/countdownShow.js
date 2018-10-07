@@ -4,6 +4,12 @@ define('countdownShow',function(){
 
     window.setTimeout(function () {
         $("#modal").modal("hide");
-    },8000);
+    },5000);
+
+    $('#countdown').hide();
+
+    $('#modal').on('hidden.bs.modal', function () {
+       $('#countdown').fadeIn(3000);
+      })
     
 });
