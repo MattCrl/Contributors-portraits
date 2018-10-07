@@ -4,7 +4,7 @@ define('countdownShow',function(){
 
     window.setTimeout(function () {
         $("#modal").modal("hide");
-    },5000);
+    },8000);
 
     $('#countdown').hide();
 
