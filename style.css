@@ -47,12 +47,15 @@ a {
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  transition: transform .2s
+
 }
 .button:hover {
   background-color: #fff;
   border-color: #fff;
   color: #411e2f;
   text-decoration: none;
+  transform: scale(1.20);
 }
 
 .card__animate {
