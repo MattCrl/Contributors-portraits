@@ -1,5 +1,5 @@
 # Welcome to the open source Contributors portrait ! [Live Version](https://mattcrl.github.io/Contributors-portraits/index.html)
-------
+
 For the Hacktoberfest, I wanna help beginners having their first PR on a simple HTML/CSS/Bootstrap project.
 
 So the main goal of this repository is to regroup a lot of contributors with their name/nickname, an image of their choice, and a little description of them
@@ -20,8 +20,11 @@ It's really easy to do a simple HTML/CSS pull request, so at least indent your c
 - Clone it
 - Push your job on your repository
 - When the job is done, submit a pull request , and that's it !
+- For refrence, check ![Card sample image](/img/sample.png)
 
-## More 
+**NOTE**: Image size should sized from `300 x 300 pixels` to `500 x 500 pixels` else the image database will effect the performance of website.
+
+## More
 Feel free to submit ideas by opening issues, or just by submitting pull request. For the moment, this project only supports HTML/CSS-Bootstrap to help beginners. But I'll see later if we can add some JS to it if someone has a nice idea :).
 
 ### There's a lot of PR and I'm alone to check it so, sorry if it take some time, i do my best to check them all. If you have an old PR please merge it with actual version of master to fix conflicts, thanks !
