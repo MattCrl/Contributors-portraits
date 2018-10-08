@@ -19,9 +19,11 @@
 			<style type="text/css">
 				.st0{fill:#21ffff;}
 			</style>
-			<path class="st0" d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z"></path>
-		</svg>
-    <span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
+      <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+        <path class="st0" d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z"></path>
+        </svg>
+      </a>
+        <span class="main-title heading_animate">Hacktoberfest - Contributors Portraits</span></h1>
     
 <!-- Modal -->
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -510,6 +512,7 @@
       <!-- Kashif's card end -->
 
       <!-- start Karl's card -->
+
       <div class="col-12 col-sm-4 col-md-3">
         <div class="card card__animate contributor">
           <img class="card-img-top img-fluid" data-src="./images/karl.jpg" alt="Karl Tanjuan">
@@ -757,7 +760,7 @@
       <!--thebooort card end-->
 
       <!--Helen's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
           <div class="card card__animate">
                <img class="card-img-top img-fluid" data-src="./images/helen.jpg" alt="portrait">
               <div class="card-body">
@@ -1099,7 +1102,43 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <script type="text/javascript">
+    let myLazyLoad = new LazyLoad({
+      elements_selector: ".card-img-top"
+    });
+  	var nodesSameClass = document.getElementsByClassName("contributor");
+  	document.getElementById("count").innerHTML = "Contributors Count: " + "<b style='color:#21ffff'>" + nodesSameClass.length +"</b>";
+  </script>
   <script data-main="./js/main" src="./js/require.js"></script>
+
+  <script type="text/javascript">
+      $('.heading_animate').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+  });
+
+  anime.timeline({loop: true})
+    .add({
+      targets: '.heading_animate .letter',
+      scale: [4,1],
+      opacity: [0,1],
+      translateZ: 0,
+      easing: "easeOutExpo",
+      duration: 950,
+      delay: function(el, i) {
+        return 50*i;
+      }
+    }).add({
+      targets: '.heading_animate',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+    });
+  </script>
 
 </body>
 </html>

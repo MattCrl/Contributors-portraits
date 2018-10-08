@@ -97,6 +97,17 @@ a {
   background-color:#ffffff;
 }
 
+
+.heading_animate {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.heading .letter  {
+  display: inline-block;
+  line-height: 1em;
+}
+
 /* Add class .more-info at links */
 a.more-info{ 
   position: relative;
