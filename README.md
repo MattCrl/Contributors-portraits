@@ -20,7 +20,9 @@ It's really easy to do a simple HTML/CSS pull request, so at least indent your c
 - Clone it
 - Push your job on your repository
 - When the job is done, submit a pull request , and that's it !
-- For refrence, check ![Card sample image](/images/sample.png)
+- For refrence, check 
+
+![Card sample image](/images/sample.png)
 
 **NOTE**: Image size should sized from `300 x 300 pixels` to `500 x 500 pixels` else the image database will effect the performance of website.
 
