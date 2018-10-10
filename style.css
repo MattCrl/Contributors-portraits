@@ -176,12 +176,12 @@ hr{
   border:20px solid #582d41;
 }
 
-#getting-started{
+#countdown{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 12px;
 }
-#getting-started > span{
+#countdown > span{
   padding: 25px;
   background: linear-gradient(135deg, 
   #7a142c 0%, 
