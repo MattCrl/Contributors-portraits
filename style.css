@@ -176,16 +176,6 @@ hr {
 	text-align: center;
 }
 
-.modal-title {
-	font-family: "Pirata One", cursive;
-}
-
-.modal-body {
-	color: #582d41;
-	background-color: none;
-	border: 20px solid #582d41;
-}
-
 #countdown {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -234,9 +224,9 @@ hr {
 }
 
 @media(max-width:400px){
+	
 	.time{
-		width:3%;
-		height:3%;
+		width:4.5rem;
 		font-size: 0.8em;
 	}
 }
