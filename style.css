@@ -21,6 +21,7 @@ a {
 .card-body {
   background-color: #582d41;
   color: aliceblue;
+    box-shadow: 2px 2px 10px;
 }
 .card-title {
   font-weight: bold;
