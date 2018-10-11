@@ -13,6 +13,7 @@
  </head>
 
 <body>
+  <div id="target"></div>
   <div class="container">
     <h1 class="text-center">
     	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve" role="img" aria-labelledby="dyn2wm4vin1xgraye3ggy9kf12oaz8a" class="header__logo" width="50px" height="50px"><title id="dyn2wm4vin1xgraye3ggy9kf12oaz8a">Hacktoberfest</title>
@@ -22,27 +23,15 @@
 			<path class="st0" d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z"></path>
 		</svg>
     <span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
-    
-<!-- Modal -->
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">What are you waiting to send your pull requests?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div id="getting-started"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn close" data-dismiss="modal">Close</button>
-      </div>
+    <h3 class="main-subtitle text-center">Time Left for yours Pull Requests...</h3>
+    <div class="modal-body">
+        <div id="countdown"></div>
     </div>
-  </div>
-</div>
-<!-- End Modal -->
+    <div class="row">
+      <a href="https://github.com/MattCrl/Contributors-portraits" class="btn btn-lg btn-light branch"><i class="fas fa-code-branch"></i> Send you pull request</a>
+      <a href="https://hacktoberfest.digitalocean.com/" class="btn btn-lg btn-light home"><i class="fas fa-home"></i> Web Page Official</a>
+    </div>
+
     <hr>
     <div class="container">
 	    <div class="row">
@@ -1322,14 +1311,16 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="./js/loading-overlay.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script data-main="./js/main" src="./js/require.js"></script>
 
 </body>

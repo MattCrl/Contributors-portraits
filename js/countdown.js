@@ -1,7 +1,7 @@
 define('countdown', function () {
    
   var time = (new Date().getFullYear()) + "/10/31";
-  $("#getting-started").countdown(time, function(event) {
+  $("#countdown").countdown(time, function(event) {
     $(this).html(event.strftime(
     
     ' '
@@ -10,5 +10,4 @@ define('countdown', function () {
     + '<span class="badge badge-dark">%M <br>min </span>'
     + '<span class="badge badge-dark">%S <br>sec</span>'));
   });
-
 });
