@@ -47,7 +47,7 @@ a {
 }
 
 .contributor{
-	margin-bottom: 0.5em;
+	margin-bottom: 3em;
 }
 
 .button {
@@ -227,7 +227,8 @@ hr {
 	position: fixed;
 	bottom: 0;
 	background-color:rgba(100, 3, 53, 0.8);
-	height: 6vh;
+	height: 80px;
+	margin: 0;
 }
 
 .navbar > .navbar-brand{
@@ -237,7 +238,6 @@ hr {
 	color:#ff9a56;
 	font-family: "Pirata One", cursive;
 	transition: all 0.2s ease-in;
-	word-wrap: break-word;
 }
 
 .navbar > .navbar-brand:hover{
@@ -276,5 +276,15 @@ hr {
 	.time{
 		width:4.5rem;
 		font-size: 0.8em;
+	}
+}
+
+@media(max-width:600px){
+	.arrow{
+		color:#ff9a56;
+		position: fixed;
+		bottom: 5em;
+		right:0.4em;
+		font-size: 2em;
 	}
 }
