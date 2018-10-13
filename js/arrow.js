@@ -1,5 +1,9 @@
 define('arrow', function () {
 
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
+
     $('#arrow').hover(
         function () { $(this).removeClass('animated') },
         function () { $(this).addClass('animated') }
