@@ -20,7 +20,7 @@ a {
 }
 
 .card {
-	margin-bottom: 10px;
+	margin-bottom: 2em;
 	text-align: center;
 }
 
@@ -44,6 +44,10 @@ a {
 .card-text {
 	overflow: auto;
 	height: 150px;
+}
+
+.contributor{
+	margin-bottom: 0.5em;
 }
 
 .button {
@@ -215,6 +219,50 @@ hr {
 
 .alert-custom{
 	background: rgba(71, 13, 38, 0.6);
+}
+
+.navbar{
+	border-top:2px solid white;
+	border-bottom:3px solid white;
+	position: fixed;
+	bottom: 0;
+	background-color:rgba(100, 3, 53, 0.8);
+	height: 6vh;
+}
+
+.navbar > .navbar-brand{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	color:#ff9a56;
+	font-family: "Pirata One", cursive;
+	transition: all 0.2s ease-in;
+	word-wrap: break-word;
+}
+
+.navbar > .navbar-brand:hover{
+	color:#ffffff;
+	margin-top: -0.1em;
+}
+
+.hack{
+	color:#21ffff;
+}
+
+.line{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.arrow{
+	padding: 0.1em;
+	font-size: 1.5em;
+	color:rgba(0, 238, 247, 0.8);
+	transition: all 0.2s ease-in;
+}
+
+.arrow:hover{
+	color:rgb(245, 243, 243);
 }
 
 @media(min-width:500px){
