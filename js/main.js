@@ -1,6 +1,7 @@
 require([
-    'spinner',
     'my-lazy-load',
     'contribuitors-count',
-    'countdown'
+    'countdown',
+    'copyright',
+    'arrow'
 ]);

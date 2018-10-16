@@ -20,7 +20,7 @@ a {
 }
 
 .card {
-	margin-bottom: 10px;
+	margin-bottom: 2em;
 	text-align: center;
 }
 
@@ -44,6 +44,10 @@ a {
 .card-text {
 	overflow: auto;
 	height: 150px;
+}
+
+.contributor{
+	margin-bottom: 3em;
 }
 
 .button {
@@ -176,16 +180,6 @@ hr {
 	text-align: center;
 }
 
-.modal-title {
-	font-family: "Pirata One", cursive;
-}
-
-.modal-body {
-	color: #582d41;
-	background-color: none;
-	border: 20px solid #582d41;
-}
-
 #countdown {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -223,189 +217,74 @@ hr {
 	margin: 0.9em auto;
 }
 
-@media (max-width: 600px) {
-	.modal-title {
+.alert-custom{
+	background: rgba(71, 13, 38, 0.6);
+}
+
+.navbar{
+	border-top:2px solid white;
+	border-bottom:3px solid white;
+	position: fixed;
+	bottom: 0;
+	background-color:rgba(100, 3, 53, 0.8);
+	height: 80px;
+	margin: 0;
+}
+
+.navbar > .navbar-brand{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+	color:#ff9a56;
+	font-family: "Pirata One", cursive;
+	transition: all 0.2s ease-in;
+}
+
+.navbar > .navbar-brand:hover{
+	color:#ffffff;
+	margin-top: -0.1em;
+}
+
+.hack{
+	color:#21ffff;
+}
+
+.line{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.arrow{
+	padding: 0.1em;
+	font-size: 1.5em;
+	color:rgba(0, 238, 247, 0.8);
+	transition: all 0.2s ease-in;
+}
+
+.arrow:hover{
+	color:rgb(245, 243, 243);
+}
+
+@media(min-width:500px){
+	.time{
+		font-size: 1.5em;
+	}
+}
+
+@media(max-width:400px){
+	
+	.time{
+		width:4.5rem;
 		font-size: 0.8em;
 	}
-	#getting-started {
-		font-size: 0.5em;
-		margin: 0;
-	}
-	#getting-started>span {
-		width: 50px;
-		height: 50px;
-		font-size: 0.9em;
-		margin: 0;
-	}
 }
 
-
-/* Spinner styles */
-
-@font-face {
-	font-family: "demo";
-	src: url('fonts/icons.woff') format("woff"), url('fonts/icons.ttf') format("truetype");
-}
-
-@-moz-keyframes loadingStart {
-	0% {
-		opacity: 0;
+@media(max-width:600px){
+	.arrow{
+		color:#ff9a56;
+		position: fixed;
+		bottom: 5em;
+		right:0.4em;
+		font-size: 2em;
 	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes loadingStart {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-o-keyframes loadingStart {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes loadingStart {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes loading {
-	0% {
-		-moz-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-moz-transform: rotate(180deg);
-		transform: rotate(180deg);
-	}
-	100% {
-		-moz-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-}
-
-@-webkit-keyframes loading {
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-webkit-transform: rotate(180deg);
-		transform: rotate(180deg);
-	}
-	100% {
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-}
-
-@-o-keyframes loading {
-	0% {
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	50% {
-		-o-transform: rotate(180deg);
-		transform: rotate(180deg);
-	}
-	100% {
-		-o-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-}
-
-@keyframes loading {
-	0% {
-		transform: rotate(0deg);
-	}
-	50% {
-		transform: rotate(180deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-#target {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background-color: #7a142c;
-}
-
-.loading {
-	position: relative;
-}
-
-.loading .loading-overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	-webkit-animation: loadingStart 3s 300ms linear 1 both;
-	-moz-animation: loadingStart 3s 300ms linear 1 both;
-	-o-animation: loadingStart 3s 300ms linear 1 both;
-	animation: loadingStart 3s 300ms linear 1 both;
-	background: rgba(255, 255, 255, 0.25);
-	text-align: center;
-}
-
-.loading .loading-text {
-	font-size: 0.875rem;
-	line-height: 1.3125rem;
-	text-shadow: white 0 0 1em, white 0 0 0.5em, white 0 0 0.25em;
-	position: relative;
-	display: block;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.loading .loading-text:after {
-	content: "...";
-}
-
-.loading .loading-spinner {
-	position: absolute;
-	top: 50%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: -3.9375rem auto 0;
-	color: #1a1d1d;
-	text-align: center;
-}
-
-.loading .loading-icon {
-	font-size: 4.8125rem;
-	line-height: 5.25rem;
-	text-shadow: rgba(255, 255, 255, 0.75) 0 0 0.5em;
-	-webkit-animation: loading 1s steps(4) infinite;
-	-moz-animation: loading 1s steps(4) infinite;
-	-o-animation: loading 1s steps(4) infinite;
-	animation: loading 1s steps(4) infinite;
-	display: block;
-}
-
-.loading .loading-icon:before {
-	vertical-align: middle;
-	content: "\e000";
-	font-family: "demo";
 }

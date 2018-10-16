@@ -8,12 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Pirata+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
  </head>
 
 <body>
-  <div id="target"></div>
   <div class="container">
     <h1 class="text-center">
     	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve" role="img" aria-labelledby="dyn2wm4vin1xgraye3ggy9kf12oaz8a" class="header__logo" width="50px" height="50px"><title id="dyn2wm4vin1xgraye3ggy9kf12oaz8a">Hacktoberfest</title>
@@ -24,11 +31,11 @@
 		</svg>
     <span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
     <h3 class="main-subtitle text-center">Time Left for yours Pull Requests...</h3>
-    <div class="modal-body">
+    <div class="alert alert-custom">
         <div id="countdown"></div>
     </div>
     <div class="row">
-      <a href="https://github.com/MattCrl/Contributors-portraits" class="btn btn-lg btn-light branch"><i class="fas fa-code-branch"></i> Send you pull request</a>
+      <a href="https://github.com/MattCrl/Contributors-portraits" class="btn btn-lg btn-light branch"><i class="fas fa-code-branch"></i> Submit your pull request</a>
       <a href="https://hacktoberfest.digitalocean.com/" class="btn btn-lg btn-light home"><i class="fas fa-home"></i> Web Page Official</a>
     </div>
 
@@ -536,7 +543,7 @@
       <!-- Kashif's card end -->
 
       <!-- start Karl's card -->
-      <div class="col-12 col-sm-4 col-md-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate contributor">
           <img class="card-img-top img-fluid" data-src="./images/karl.jpg" alt="Karl Tanjuan">
           <div class="card-body">
@@ -623,7 +630,7 @@
       <!-- Stephanie L's card begin-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
-          <img class="card-img-top img-fluid" src="https://i.imgur.com/5Xvf0Tr.jpg" alt="my headshot">
+          <img class="card-img-top img-fluid" src="./images/stephanie.jpg" alt="my headshot">
           <div class="card-body">
             <h5 class="card-title">Stephanie Leazer</h5>
             <hr class="separator">
@@ -897,7 +904,7 @@
           <div class="card-body">
             <h5 class="card-title">Berkay</h5>
             <hr class="separator">
-            <p class="card-text">Python and Wordpress Developer. <a href="berkaydemir.com">berkaydemir.com</a></p>
+            <p class="card-text">Python and Wordpress Developer. <a href="berkaydemir.com" class="more-info">berkaydemir.com</a></p>
             <a href="https://github.com/b3rkaydem1r" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1058,7 +1065,7 @@
           <div class="card-body">
             <h5 class="card-title">Okta Arif Cahyawan</h5>
             <hr class="separator">
-            <p class="card-text">I'm a network engginer, student at Indonesia. FOSS & Anime Enthusiast. Project Manager <a href="https://tealinuxos.org/">TealinuxOS X</a></p>
+            <p class="card-text">I'm a network engginer, student at Indonesia. FOSS & Anime Enthusiast. Project Manager <a href="https://tealinuxos.org/" class="more-info">TealinuxOS X</a></p>
             <a href="https://github.com/okutasan" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1190,7 +1197,7 @@
           <div class="card-body">
             <h5 class="card-title">C-Lion</h5>
             <hr class="separator">
-            <p class="card-text">Community Manager for 1millionwomentotech <a href="https://github.com/1millionwomentotech">1MWTT</a></p>
+            <p class="card-text">Community Manager for 1millionwomentotech <a href="https://github.com/1millionwomentotech" class="more-info">1MWTT</a></p>
             <a href="https://github.com/C-Lion" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1261,7 +1268,7 @@
           <div class="card-body">
             <h5 class="card-title">Frauchi</h5>
             <hr class="separator">
-            <p class="card-text">I'm an Enviormental Science student. I'm learning how to code with Python. <a href="https://cronos2.github.io/hellofrauchi">Check my website!</a>/</p>
+            <p class="card-text">I'm an Enviormental Science student. I'm learning how to code with Python.<br><a href="https://cronos2.github.io/hellofrauchi" class="more-info"> Check my website!</a></p>
             <a href="https://github.com/Frauchi" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1274,7 +1281,7 @@
           <div class="card-body">
             <h5 class="card-title">Eric Porter</h5>
             <hr class="separator">
-            <p class="card-text">I am a web content specialist who dabbles in front-end. <a href="http://ericporter.info/">Check my website!</a>/</p>
+            <p class="card-text">I am a web content specialist who dabbles in front-end.<br> <a href="http://ericporter.info/" class="more-info">Check my website!</a></p>
             <a href="https://github.com/epix360" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1287,7 +1294,7 @@
           <div class="card-body">
             <h5 class="card-title">Elena G</h5>
             <hr class="separator">
-            <p class="card-text">worldbuilding, storytelling, ttrpgs, crossplatform dev - <a href="http://beelzenef.github.io">check my website!</a></p>
+            <p class="card-text">worldbuilding, storytelling, ttrpgs, crossplatform dev - <a href="http://beelzenef.github.io" class="more-info">check my website!</a></p>
             <a href="https://github.com/beelzenef" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1295,7 +1302,7 @@
         <!-- Anne Cope -->
        <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
-          <img class="card-img-top img-fluid" data-src="./images/Molly.jpg" alt="golden retriever">
+          <img class="card-img-top img-fluid" data-src="./images/molly.jpg" alt="golden retriever">
           <div class="card-body">
             <h5 class="card-title">Anne C</h5>
             <hr class="separator">
@@ -1316,9 +1323,14 @@
           </div>
         </div>
       </div>
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom navbar-light bg-faded">
+      <a class="navbar-brand" href="https://github.com/MattCrl/Contributors-portraits"><span class="year" id="actual-year"></span><span class="line"> - </span><span class="hack">Hacktoberfest</span><span class="line"> - </span><span class="contrib">Contributors portraits</span><a class="ml-auto arrow" href=""><i class="fas fa-arrow-up animated infinite bounce delay-2s" id="arrow"></i></a></a>
+    </nav>
+    <!-- End footer -->
       
 	<!-- End of global row -->
-    </div>
+    </div>  
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -1329,7 +1341,6 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="./js/loading-overlay.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
