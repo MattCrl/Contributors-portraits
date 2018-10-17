@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,7 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Pirata+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
  </head>
 
@@ -22,27 +30,15 @@
 			<path class="st0" d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z"></path>
 		</svg>
     <span class="main-title">Hacktoberfest - Contributors Portraits</span></h1>
-    
-<!-- Modal -->
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">What are you waiting to send your pull requests?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div id="getting-started"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn close" data-dismiss="modal">Close</button>
-      </div>
+    <h3 class="main-subtitle text-center">Time Left for yours Pull Requests...</h3>
+    <div class="alert alert-custom">
+        <div id="countdown"></div>
     </div>
-  </div>
-</div>
-<!-- End Modal -->
+    <div class="row">
+      <a href="https://github.com/MattCrl/Contributors-portraits" class="btn btn-lg btn-light branch"><i class="fas fa-code-branch"></i> Submit your pull request</a>
+      <a href="https://hacktoberfest.digitalocean.com/" class="btn btn-lg btn-light home"><i class="fas fa-home"></i> Web Page Official</a>
+    </div>
+
     <hr>
     <div class="container">
 	    <div class="row">
@@ -80,6 +76,18 @@
         </div>
       </div>
 
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/waris.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Waris</h5>
+            <hr class="separator">
+            <p class="card-text">Fullstack Developer And Javascript Enthusiast !</p>
+            <a href="https://github.com/warisrao" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
       <!-- Third card is my spot! Marejean, by the way ;) -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -93,6 +101,19 @@
         </div>
       </div>
 
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+         <img class="card-img-top img-fluid" data-src="./images/Keshav.jpg" alt="Card image cap">
+         <div class="card-body">
+            <h5 class="card-title">Keshav Seksaria</h5>
+            <hr class="separator">
+            <p class="card-text">Hey, I'm Keshav Seksaria who loves to procrastinate enjoying life at IIT-Bhu (Varanasi).</p>
+            <a href="your-github-profile-link-here" class="button">GitHub Profile</a>
+         </div>
+        </div>
+      </div>
+
+
 	    <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/wisnu.jpg" alt="Awesome">
@@ -103,6 +124,18 @@
             <a href="https://github.com/wfebriadi" class="button">GitHub Profile</a>
           </div>
         </div>
+      </div>
+
+      ﻿<div class="col-12 col-md-6 col-lg-3 contributor">
+       <div class="card card__animate">
+         <img class="card-img-top img-fluid" data-src="./images/zaynkorai.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zayn Korai</h5>
+            <hr class="separator">
+            <p class="card-text">I am Student and Duct Tape Programmer, btw I love System Designing</p>
+            <a href="https://github.com/zaynkorai" class="button">GitHub Profile</a>
+          </div>
+       </div>
       </div>
 	    
       <div class="col-12 col-md-6 col-lg-3 contributor">
@@ -510,7 +543,7 @@
       <!-- Kashif's card end -->
 
       <!-- start Karl's card -->
-      <div class="col-12 col-sm-4 col-md-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate contributor">
           <img class="card-img-top img-fluid" data-src="./images/karl.jpg" alt="Karl Tanjuan">
           <div class="card-body">
@@ -597,7 +630,7 @@
       <!-- Stephanie L's card begin-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
-          <img class="card-img-top img-fluid" data-src="https://i.imgur.com/5Xvf0Tr.jpg" alt="my headshot">
+          <img class="card-img-top img-fluid" src="./images/stephanie.jpg" alt="my headshot">
           <div class="card-body">
             <h5 class="card-title">Stephanie Leazer</h5>
             <hr class="separator">
@@ -878,6 +911,19 @@
       </div>
       <!-- alfarise's Card End -->
 
+      <!--This is Berkay -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars0.githubusercontent.com/u/35340093?s=460&v=4" alt="Awesome">
+          <div class="card-body">
+            <h5 class="card-title">Berkay</h5>
+            <hr class="separator">
+            <p class="card-text">Python and Wordpress Developer. <a href="berkaydemir.com" class="more-info">berkaydemir.com</a></p>
+            <a href="https://github.com/b3rkaydem1r" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
 	    <!-- Vaibhav's card start! -->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -893,6 +939,21 @@
       </div>
       <!-- Vaibhav's card end -->
 
+	
+	    <!-- Akshit Goyal's card start! -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/AkshitGoyal.png" alt="Akshit Goyal">
+          <div class="card-body">
+            <h5 class="card-title">Akshit Goyal</h5>
+            <hr class="separator">
+            <p class="card-text">I'm an Indian willing to expand my knowledge in several areas of Open Source softwares.</p>
+            <a href="https://github.com/akshit15013" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Akshit Goyal's card end -->    
+      
       <!--This is Diego-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
@@ -959,7 +1020,7 @@
         </div>
       </div>
 
-  <!--Hasanga's card-->
+      <!--Hasanga's card-->
       <div class="col-12 col-md-6 col-lg-3 contributor">
         <div class="card card__animate">
           <img class="card-img-top img-fluid" data-src="./images/hasa.JPG">
@@ -1018,7 +1079,7 @@
           <div class="card-body">
             <h5 class="card-title">Okta Arif Cahyawan</h5>
             <hr class="separator">
-            <p class="card-text">I'm a network engginer, student at Indonesia. FOSS & Anime Enthusiast. Project Manager <a href="https://tealinuxos.org/">TealinuxOS X</a></p>
+            <p class="card-text">I'm a network engginer, student at Indonesia. FOSS & Anime Enthusiast. Project Manager <a href="https://tealinuxos.org/" class="more-info">TealinuxOS X</a></p>
             <a href="https://github.com/okutasan" class="button">GitHub Profile</a>
           </div>
         </div>
@@ -1031,8 +1092,8 @@
           <div class="card-body">
             <h5 class="card-title">Rizki Mufti Ilmawan</h5>
             <hr class="separator">
-            <p class="card-text">Web Developer From Indonesia</p>
-            <a href="https://github.com/maggiduscher" class="button">GitHub Profile</a>
+            <p class="card-text">Web Developer From Indonesia, FOSS enthusiast , Linux User   </p>
+            <a href="https://github.com/rizkimufti" class="button">GitHub Profile</a>
           </div>
         </div>
       </div>
@@ -1087,13 +1148,209 @@
           </div>
         </div>
       </div>
+      
+      <!-- Amintas Victor -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars2.githubusercontent.com/u/25506431?s=460&v=4" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Amintas Victor</h5>
+            <hr class="separator">
+            <p class="card-text">Web developer. Literati. Cinephile. Enthusiast in Psychology and Philosophy. Gamer in my spare time</p>
+            <a href="https://github.com/amintasvrp" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Amintas Victor -->
+
+      <!-- Hozay  -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+          <div class="card card__animate">
+            <img class="card-img-top img-fluid" data-src="https://avatars1.githubusercontent.com/u/27895487?s=460&v=4" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hozay</h5>
+              <hr class="separator">
+              <p class="card-text">Passionate about web development, design, and programming. Novice but growing.</p>
+              <a href="https://github.com/JosChavz" class="button">GitHub Profile</a>
+            </div>
+          </div>
+      </div>
+	
+      <!-- Glenn's Card Start -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/glennlanzer.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Glenn Lanzer III</h5>
+            <hr class="separator">
+            <p class="card-text">I'm a full-stack JavaScript developer with more focus on the front-end. I enjoy being outdoors, going to concerts, and much more!</p>
+            <a href="https://github.com/TexasBullet26" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Glenn's Card End -->
+
+      <!-- Himanshu kumar das -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+            <img class="card-img-top img-fluid" data-src="./images/hi-manshu-kumar.jpeg" alt="Himanshu kumar">
+            <div class="card-body">
+              <h5 class="card-title">Himanshu kumar das</h5>
+              <hr class="separator">
+              <p class="card-text">Full stack developer || MEAN / MERN stack dev. </p>
+              <a href="https://github.com/hi-manshu-kumar" class="button">GitHub Profile</a>
+            </div>
+        </div>
+      </div>
+      <!-- Himanshu kumar das -->
+
+	    <!-- C-Lion card start! -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/c-lion.JPG" alt="C-Lion">
+          <div class="card-body">
+            <h5 class="card-title">C-Lion</h5>
+            <hr class="separator">
+            <p class="card-text">Community Manager for 1millionwomentotech <a href="https://github.com/1millionwomentotech" class="more-info">1MWTT</a></p>
+            <a href="https://github.com/C-Lion" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- C-Lion card end -->
 
 
-      <!-- End of global row -->
-    </div>
+      <!-- Titi Arimba -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/arisdolanan.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Titi Arimba</h5>
+            <hr class="separator">
+            <p class="card-text">Hello, World! I code like a Girl ❤</p>
+            <a href="https://github.com/titiarimba" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- Titi Arimba -->
+
+
+       <!-- John Cotton -->
+       <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/jcdevprof.jpg" alt="jc">
+          <div class="card-body">
+            <h5 class="card-title">John C</h5>
+            <hr class="separator">
+            <p class="card-text">Web dev consultant, hackerpreneur</p>
+            <a href="https://github.com/thejohncotton" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Remy Nguyen -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars0.githubusercontent.com/u/25541113?s=460&v=4" alt="Remy Nguyen">
+          <div class="card-body">
+            <h5 class="card-title">Remy Nguyen</h5>
+            <hr class="separator">
+            <p class="card-text">I'm Software Developer. I currently enjoy building apps in React and continuing to learn new cool things!</p>
+            <a href="https://github.com/remynguyen96" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Nacho Mas -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="https://avatars1.githubusercontent.com/u/788256?s=460&v=4" alt="Nacho Mas">
+          <div class="card-body">
+            <h5 class="card-title">Nacho Mas</h5>
+            <hr class="separator">
+            <p class="card-text">I'm a Computer Science & Mathematics undergrad who enjoys software development and chess</p>
+            <a href="https://github.com/cronos2" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frauchi -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/frauchi.jpg" alt="Frauchi">
+          <div class="card-body">
+            <h5 class="card-title">Frauchi</h5>
+            <hr class="separator">
+            <p class="card-text">I'm an Enviormental Science student. I'm learning how to code with Python.<br><a href="https://cronos2.github.io/hellofrauchi" class="more-info"> Check my website!</a></p>
+            <a href="https://github.com/Frauchi" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+	    
+      <!-- Eric Porter -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/ericp.jpg" alt="Eric Porter">
+          <div class="card-body">
+            <h5 class="card-title">Eric Porter</h5>
+            <hr class="separator">
+            <p class="card-text">I am a web content specialist who dabbles in front-end.<br> <a href="http://ericporter.info/" class="more-info">Check my website!</a></p>
+            <a href="https://github.com/epix360" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elena G (Beelzenef) -->
+      <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/elenag.png" alt="Elena G">
+          <div class="card-body">
+            <h5 class="card-title">Elena G</h5>
+            <hr class="separator">
+            <p class="card-text">worldbuilding, storytelling, ttrpgs, crossplatform dev - <a href="http://beelzenef.github.io" class="more-info">check my website!</a></p>
+            <a href="https://github.com/beelzenef" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+        <!-- Anne Cope -->
+       <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/molly.jpg" alt="golden retriever">
+          <div class="card-body">
+            <h5 class="card-title">Anne C</h5>
+            <hr class="separator">
+            <p class="card-text">Web Design and Development Student</p>
+            <a href="https://github.com/cherrytone" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+        <!-- Alter Ego -->
+       <div class="col-12 col-md-6 col-lg-3 contributor">
+        <div class="card card__animate">
+          <img class="card-img-top img-fluid" data-src="./images/bear8.1.jpg" alt="bear eating a twix candybar">
+          <div class="card-body">
+            <h5 class="card-title">Andy Bear</h5>
+            <hr class="separator">
+            <p class="card-text">Graphic Design</p>
+            <a href="https://github.com/beartastic" class="button">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom navbar-light bg-faded">
+      <a class="navbar-brand" href="https://github.com/MattCrl/Contributors-portraits"><span class="year" id="actual-year"></span><span class="line"> - </span><span class="hack">Hacktoberfest</span><span class="line"> - </span><span class="contrib">Contributors portraits</span><a class="ml-auto arrow" href=""><i class="fas fa-arrow-up animated infinite bounce delay-2s" id="arrow"></i></a></a>
+    </nav>
+    <!-- End footer -->
+      
+	<!-- End of global row -->
+    </div>  
+
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
@@ -1101,6 +1358,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script data-main="./js/main" src="./js/require.js"></script>
 
 </body>
