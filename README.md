@@ -25,3 +25,4 @@ It's really easy to do a simple HTML/CSS pull request, so at least indent your c
 Feel free to submit ideas by opening issues, or just by submitting pull request. For the moment, this project only supports HTML/CSS-Bootstrap to help beginners. But I'll see later if we can add some JS to it if someone has a nice idea :).
 
 ### There's a lot of PR and I'm alone to check it so, sorry if it take some time, i do my best to check them all. If you have an old PR please merge it with actual version of master to fix conflicts, thanks !
+This is my test change
