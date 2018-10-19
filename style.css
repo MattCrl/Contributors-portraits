@@ -273,6 +273,13 @@ hr {
 	color:rgb(245, 243, 243);
 }
 
+.fancy .card-body {
+    transition: background-color 1s ease;
+}
+.fancy:hover .card-body {
+    background-color: darkslateblue;
+}
+
 @media(min-width:500px){
 	.time{
 		font-size: 1.5em;
