@@ -280,6 +280,21 @@ hr {
     background-color: darkslateblue;
 }
 
+.alaa-card .card-body {
+    background-color: white;
+    color: #582d41;
+}
+
+.alaa-card .separator {
+	border-color: #582d41;
+}
+
+.alaa-card .button {
+    background: radial-gradient( circle at right, #ff9a56, #9c1e59, #21ffff);
+    color: white;
+    border: 0;
+}
+
 @media(min-width:500px){
 	.time{
 		font-size: 1.5em;
