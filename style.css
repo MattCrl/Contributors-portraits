@@ -18,7 +18,15 @@ a {
 	margin: 1em auto;
 	text-shadow: 2px 2px 10px #1a1919;
 }
-
+.btn-color-hacktober{
+	background-color: #582d41;
+	color: #fff;
+	border-color: #582d41;
+}
+.btn-color-hacktober:hover{
+	background-color: #B53D58;
+	border-color: #B53D58;
+}
 .card {
 	margin-bottom: 2em;
 	text-align: center;
@@ -263,6 +271,13 @@ hr {
 
 .arrow:hover{
 	color:rgb(245, 243, 243);
+}
+
+.fancy .card-body {
+    transition: background-color 1s ease;
+}
+.fancy:hover .card-body {
+    background-color: darkslateblue;
 }
 
 @media(min-width:500px){
