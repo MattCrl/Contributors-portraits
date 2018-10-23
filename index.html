@@ -46,6 +46,17 @@
 	    		<h3 class="main-title style-count" id="count"></h3>
 	    	</div>
 	    </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 text-center">  
+           <div class="container">
+              <form action="" role="search" class="search-form btn btn-lg btn-outline-primary btn-color-hacktober">
+                  <input type="search" name="q" id="search-contributor" class="search-contributor main-title" onkeyup="searchContributor()" placeholder="Search contributors ..."
+           autocomplete="off">
+               </form>
+            </div>
+          </div>
+      </div>
 	</div>
 	<hr>
     <!-- Global row, put your code between it-->
@@ -908,7 +919,7 @@
       <!--thebooort card end-->
 
       <!--Helen's Card start-->
-      <div class="col-12 col-md-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3 contributor">
           <div class="card card__animate">
                <img class="card-img-top img-fluid" data-src="./images/helen.jpg" alt="portrait">
               <div class="card-body">
@@ -1716,6 +1727,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.17.0/lazyload.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script data-main="./js/main" src="./js/require.js"></script>
+  <script src="./js/contributor-search.js"></script>
 
 </body>
 </html>
