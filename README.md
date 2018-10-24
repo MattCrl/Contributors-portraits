@@ -13,7 +13,7 @@ So the main goal of this repository is to regroup a lot of contributors with the
 
 ## I want to do more
 Like you see, the project has actually no "style", feel free to enhance it as you wish and share your ideas (don't do ugly things I won't accept it !). Everything must be in the files that are already created (index.html & style.css), and well indented.
-It's really easy to do a simple HTML/CSS pull request, so at least indent your code so the project will stay proper :).
+It's really easy to do a simple HTML/CSS pull request, so at least indent your code so the project will stay proper good luck !:).
 
 ## How to contribute
 - Fork the project
