@@ -1,9 +1,10 @@
-html body {
+
+{
 	height: 100vh;
 	background-image: radial-gradient( circle at right, #ff9a56, #9c1e59, #21ffff);
 }
 
-a {
+{
 	text-decoration: none;
 }
 
@@ -174,7 +175,7 @@ h3.style-count {
 	padding: 1%;
 }
 
-hr {
+{
 	background-color: aliceblue;
 }
 
