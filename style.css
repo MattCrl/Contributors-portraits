@@ -18,6 +18,10 @@ a {
 	margin: 1em auto;
 	text-shadow: 2px 2px 10px #1a1919;
 }
+.expired{
+	color:#f8f1f5;
+	float: none;
+}
 .btn-color-hacktober{
 	background-color: #582d41;
 	color: #fff;
