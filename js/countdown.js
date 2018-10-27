@@ -20,6 +20,5 @@ define('countdown', function () {
     $('<div class="container"><h3 class="main-subtitle expired text-center">Thanks for your contributions <i class="em em-call_me_hand"></i>!</h3></div>').insertAfter('.home');
     time = undefined;
   }
-  console.log(typeof(dataDays),time);
-  
+    
 });
