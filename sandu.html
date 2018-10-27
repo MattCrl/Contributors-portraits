@@ -12,14 +12,14 @@
 <body>
  
 <div class="container">
-  <h2>Card Image</h2>
+  <h2>Sandu</h2>
   <p>Hi i'm sandu:</p>
   <div class="card" style="width:400px">
     <img class="card-img-top" src="D:\Contributors-portraits\images\Sandu.jpg" alt="Card image" style="width:100%">
     <div class="card-body">
       <h4 class="card-title">Sandu</h4>
-      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
+      
+      <a href="https://github.com/sanduniisa" class="btn btn-primary">See My Github Profile</a>
     </div>
   </div>
   <br>
