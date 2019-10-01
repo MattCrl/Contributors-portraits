@@ -31,6 +31,9 @@ a {
 	margin-bottom: 2em;
 	text-align: center;
 }
+.card:hover .card__layer {
+	opacity: 0;
+}
 
 .card-body {
 	background-color: #582d41;
@@ -335,4 +338,21 @@ input.search-contributor:focus {
   outline: none;
   cursor:auto;
   padding-right: 10px;
+}
+.card__figure {
+	margin-bottom: 0;
+	position: relative;
+}
+.card__layer {
+	transition: 0.6s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to right bottom, #9c1e59, #b93758, #d35357, #e77155, #f79056);
+	opacity: 0.7;
 }
