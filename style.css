@@ -24,8 +24,11 @@ a {
 	border-color: #582d41;
 }
 .btn-color-hacktober:hover{
-	background-color: #B53D58;
-	border-color: #B53D58;
+	background-color: #25e8e5;
+	color: #000;
+	border-color: #25e8e5;
+	border-radius: 30px;
+	transition: 0.7s ease;
 }
 .card {
 	margin-bottom: 2em;
