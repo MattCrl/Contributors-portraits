@@ -1,6 +1,6 @@
 html body {
 	height: 100vh;
-	background-image: radial-gradient( circle at right, #ff9a56, #9c1e59, #21ffff);
+	background-color: #39486f;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 
 .main-subtitle {
 	font-family: "Pirata One", cursive;
-	color: #21ffff;
+	color: white;
 	font-weight: bold;
 	margin: 1em auto;
 	text-shadow: 2px 2px 10px #1a1919;
@@ -161,8 +161,8 @@ a.more-info:hover:before {
 }
 
 .style-count span {
-	background-color: #ff9a56;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #39486f;
 }
 
 h3.style-count {
