@@ -336,3 +336,15 @@ input.search-contributor:focus {
   cursor:auto;
   padding-right: 10px;
 }
+
+div.header {
+	    background: #152347;
+    padding: 50px;
+}
+div.header img {
+	 transition: transform .2s; /* Animation */
+	 max-width: 100%;
+}
+div.header  img:hover {
+	transform: scale(1.1);
+}
