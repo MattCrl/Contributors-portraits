@@ -6,7 +6,7 @@ So the main goal of this repository is to regroup a lot of contributors with the
 
 -----
 ## Rules
-- Use Bootstrap cards model, you can copy/paste the first model I've done and replace it with your personal information
+- Insert your personal information to the contributors array in the script of the bottom
 - No insults/offensive language, PR will be refused and marked as **invalid**
 - Play the game with your description/image. I won't accept PR if someone just uses a placeholder and write random work as a description!
 - For the image, you can add your file in the **/images** folder, or just add a link of the image of your choice
