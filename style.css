@@ -9,6 +9,7 @@ a {
 
 .main-title {
 	font-family: "Pirata One", cursive;
+	text-shadow:3px 3px 3px rgb(221,160,221);
 }
 
 .main-subtitle {
