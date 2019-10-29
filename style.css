@@ -33,15 +33,15 @@ a {
 }
 
 .card-body {
-	background-color: #582d41;
+	background-color: #631616;
 	color: aliceblue;
 }
 
 .card-title {
 	font-weight: bold;
 	margin-bottom: 10px;
-	height: 40px;
-	color: #ff9a56;
+	height: 50px;
+	color: #FF924F;
 }
 
 .card-img-top {
@@ -59,9 +59,9 @@ a {
 }
 
 .button {
-	border: 3px solid #21ffff;
+	border: 3px solid cyan;
 	border-radius: 4px;
-	color: #21ffff;
+	color: cyan;
 	display: inline-block;
 	font-size: 0.9em;
 	margin-left: 0.5rem;
@@ -235,8 +235,9 @@ hr {
 	position: fixed;
 	bottom: 0;
 	background-color:rgba(100, 3, 53, 0.8);
-	height: 80px;
+	height: 70px;
 	margin: 0;
+	opacity: 0.9; 	
 }
 
 .navbar > .navbar-brand{
@@ -264,6 +265,7 @@ hr {
 
 .arrow{
 	padding: 0.1em;
+	margin-bottom: -10px;
 	font-size: 1.5em;
 	color:rgba(0, 238, 247, 0.8);
 	transition: all 0.2s ease-in;
